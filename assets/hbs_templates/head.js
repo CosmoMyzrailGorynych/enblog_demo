@@ -11,7 +11,7 @@ define(["handlebars"], function(Handlebars) { return Handlebars.template({"1":fu
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression, alias3=depth0 != null ? depth0 : (container.nullContext || {});
 
-  return "<meta charset=\"utf-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n<style type=\"text/css\">\r\nbody {\r\nbackground-image: url(/enduro_demo"
+  return "<meta charset=\"utf-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n<style type=\"text/css\">\r\nbody {\r\nbackground-image: url(/enblog_demo"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.background_image : stack1), depth0))
     + ");\r\n"
     + ((stack1 = helpers["if"].call(alias3,((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.tile_background : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.program(3, data, 0),"data":data})) != null ? stack1 : "")

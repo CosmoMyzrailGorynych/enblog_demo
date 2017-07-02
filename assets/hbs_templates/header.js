@@ -7,7 +7,7 @@ define(["handlebars"], function(Handlebars) { return Handlebars.template({"1":fu
 },"3":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "            <a href=\"/enduro_demo/archive/\">"
+  return "            <a href=\"/enblog_demo/archive/\">"
     + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.archive_link_text : stack1), depth0))
     + "</a>\r\n";
 },"5":function(container,depth0,helpers,partials,data) {
@@ -17,14 +17,14 @@ define(["handlebars"], function(Handlebars) { return Handlebars.template({"1":fu
 },"6":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=container.lambda, alias2=container.escapeExpression;
 
-  return "                <a href=\"/enduro_demo/pages/"
+  return "                <a href=\"/enblog_demo/pages/"
     + alias2(alias1((depth0 != null ? depth0.page_slug : depth0), depth0))
     + "/\">"
     + alias2(alias1(((stack1 = (depth0 != null ? depth0.content : depth0)) != null ? stack1.navigation_title : stack1), depth0))
     + "</a>\r\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, helper, options, alias1=depth0 != null ? depth0 : (container.nullContext || {}), buffer = 
-  "<header>\r\n    <div class=\"inner\">\r\n        <h1><a href=\"/enduro_demo/\">"
+  "<header>\r\n    <div class=\"inner\">\r\n        <h1><a href=\"/enblog_demo/\">"
     + container.escapeExpression(container.lambda(((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.site_name : stack1), depth0))
     + "</a></h1>\r\n"
     + ((stack1 = helpers["if"].call(alias1,((stack1 = (depth0 != null ? depth0.global : depth0)) != null ? stack1.site_description : stack1),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
