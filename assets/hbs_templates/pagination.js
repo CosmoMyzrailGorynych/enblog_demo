@@ -1,7 +1,7 @@
 define(["handlebars"], function(Handlebars) { return Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "        <a href=\""
+  return "        <a href=\"/enduro_demo"
     + alias4(((helper = (helper = helpers.prev_page || (depth0 != null ? depth0.prev_page : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"prev_page","hash":{},"data":data}) : helper)))
     + "\" class=\"aPagination-aPrevious\">"
     + alias4(((helper = (helper = helpers.previous_page_label || (depth0 != null ? depth0.previous_page_label : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"previous_page_label","hash":{},"data":data}) : helper)))
@@ -9,7 +9,7 @@ define(["handlebars"], function(Handlebars) { return Handlebars.template({"1":fu
 },"3":function(container,depth0,helpers,partials,data) {
     var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "        <a href=\""
+  return "        <a href=\"/enduro_demo"
     + alias4(((helper = (helper = helpers.next_page || (depth0 != null ? depth0.next_page : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"next_page","hash":{},"data":data}) : helper)))
     + "\" class=\"aPagination-aNext\">"
     + alias4(((helper = (helper = helpers.next_page_label || (depth0 != null ? depth0.next_page_label : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"next_page_label","hash":{},"data":data}) : helper)))
